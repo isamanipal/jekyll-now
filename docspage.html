@@ -5,6 +5,12 @@ permalink: /d/
 
 <strong>Documentation of projects</strong>
 
+<ul>
+    {% for project in site.projects %}
+    <li> <a href="{{ site.baseurl }}/d/{{ project.title }}">{{ project.title }}</a> </li>
+</ul>
+
+
 <!-- <div class="posts"> -->
 <!--   {% for post in site.posts %} -->
 <!--     <article class="post"> -->

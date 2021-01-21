@@ -9,7 +9,7 @@ name: ISA Manipal
 description: A student club in manipal
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{site.baseurl}}/images/ISA-logo.png
+avatar: https://raw.githubusercontent.com/isamanipal/isamanipal.github.io/master/images/ISA-logo.png
 
 #
 # Flags below are optional
