@@ -7,30 +7,33 @@ permalink: /d/
   <strong>Documentation of projects</strong>
 </div>
 
-<h2>Artificial Intelligence</h2>
+<h3>Artificial Intelligence</h3>
 
 <ul>
-  {% for project in site.projects | where: "sub", "AI" | group_by: "tag" %}
+  {% for project in site.projects | where: project.sub, "AI" | group_by: "tag"
+  %}
   <li>
     <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
   </li>
   {% endfor %}
 </ul>
 
-<h2>Electronics</h2>
+<h3>Electronics</h3>
 
 <ul>
-  {% for project in site.projects | where: "sub", "ELE" | group_by: "tag" %}
+  {% for project in site.projects | where: project.sub, "ELE" | group_by: "tag"
+  %}
   <li>
     <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
   </li>
   {% endfor %}
 </ul>
 
-<h2>Mechnical</h2>
+<h3>Mechnical</h3>
 
 <ul>
-  {% for project in site.projects | where: "sub", "MECH" | group_by: "tag" %}
+  {% for project in site.projects | where: project.sub, "MECH" | group_by: "tag"
+  %}
   <li>
     <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
   </li>
