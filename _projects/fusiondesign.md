@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: doc
 sub: MECH
 tag: fusion360
 title: How to make a doughnut in fusion360

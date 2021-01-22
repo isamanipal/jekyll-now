@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: doc
 sub: AI
 tag: ml
 title: Exploratory Data Analysis

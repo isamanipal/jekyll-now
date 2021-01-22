@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: doc
 sub: ELE
 tag: pid
 title: What is PID?

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: doc
 sub: AI
 tag: opencv
 title: Subscriber - Publisher
