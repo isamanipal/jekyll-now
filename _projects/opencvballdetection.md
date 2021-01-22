@@ -1,6 +1,8 @@
 ---
 layout: page
-title: OpenCV Ball Tracking
+sub: AI
+tag: opencv
+title: Ball Tracking
 ---
 
 ### Masks
