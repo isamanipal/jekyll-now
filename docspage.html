@@ -3,26 +3,36 @@ layout: default
 permalink: /d/
 ---
 
-<strong>Documentation of projects</strong>
+<div style="font-size: x-large">
+  <strong>Documentation of projects</strong>
+</div>
+
+<h2>Artificial Intelligence</h2>
 
 <ul>
-    {% for project in site.projects %}
-    <li> <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a> </li>
-    {% endfor %}
+  {% for project in site.projects | where: "sub", "AI" | group_by: "tag" %}
+  <li>
+    <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
+  </li>
+  {% endfor %}
 </ul>
 
+<h2>Electronics</h2>
 
-<!-- <div class="posts"> -->
-<!--   {% for post in site.posts %} -->
-<!--     <article class="post"> -->
-<!--  -->
-<!--       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1> -->
-<!--  -->
-<!--       <div class="entry"> -->
-<!--         {{ post.excerpt }} -->
-<!--       </div> -->
-<!--  -->
-<!--       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
-<!--     </article> -->
-<!--   {% endfor %} -->
-<!-- </div> -->
+<ul>
+  {% for project in site.projects | where: "sub", "ELE" | group_by: "tag" %}
+  <li>
+    <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Mechnical</h2>
+
+<ul>
+  {% for project in site.projects | where: "sub", "MECH" | group_by: "tag" %}
+  <li>
+    <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
