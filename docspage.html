@@ -3,39 +3,36 @@ layout: default
 permalink: /d/
 ---
 
-<div style="font-size: x-large">
+<div style="font-size: xx-large">
   <strong>Documentation of projects</strong>
 </div>
 
 <h3>Artificial Intelligence</h3>
 
 <ul>
-  {% for project in site.projects | where: project.sub, "AI" | group_by: "tag"
-  %}
+  {% for project in site.projects %} {% if project.sub == "AI" %}
   <li>
     <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
   </li>
-  {% endfor %}
+  {% endif %} {% endfor %}
 </ul>
 
 <h3>Electronics</h3>
 
 <ul>
-  {% for project in site.projects | where: project.sub, "ELE" | group_by: "tag"
-  %}
+  {% for project in site.projects %} {% if project.sub == "ELE" %}
   <li>
     <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
   </li>
-  {% endfor %}
+  {% endif %} {% endfor %}
 </ul>
 
 <h3>Mechnical</h3>
 
 <ul>
-  {% for project in site.projects | where: project.sub, "MECH" | group_by: "tag"
-  %}
+  {% for project in site.projects %} {% if project.sub == "MECH" %}
   <li>
     <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
   </li>
-  {% endfor %}
+  {% endif %} {% endfor %}
 </ul>
