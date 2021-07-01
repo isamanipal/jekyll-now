@@ -9,5 +9,5 @@ This technology will prove useful for routes that are hundreds of miles long as 
 
 Check out this week's Tech Tuesday post..
  
-![Magnetic-Train 1]({{ site.baseurl }}/images/tech-tuesdays-content/MECH/Magnetic-Train/*.jpeg)
+![Magnetic-Train 1]({{ site.baseurl }}/images/tech-tuesdays-content/MECH/Magnetic-Train/Introduction.jpeg)
 
