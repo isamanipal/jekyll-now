@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is a post on Magnetic Levitation Train
+title:  Magnetic Levitation Train
 ---
 
 Magnetic levitation train is also known as Maglev train is a 'floating' vehicle for land transportation. It uses magnetic levitation to move without touching the track. With maglev, a vehicle travels along a guideway using magnets to create both lift and propulsion, thereby reducing friction and allowing higher speeds.💥
