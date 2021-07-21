@@ -9,6 +9,7 @@ The rotor has no windings or magnets, it has electric steel plates stacked toget
 rotor package.<p/>
 <p>It has been such a great alternative that even Tesla's model 3 uses this kind of motor.<p/>
 <p>Check out this week's Tech Tuesday post 💫💥!!<p/>
+
 <img src="/images/tech-tuesdays-content/MECH/Synchronous Reluctance Motors/1.jpeg" alt="Synchronous Reluctance Motors 1">
 <img src="/images/tech-tuesdays-content/MECH/Synchronous Reluctance Motors/2.jpeg" alt="Synchronous Reluctance Motors 2">
 <img src="/images/tech-tuesdays-content/MECH/Synchronous Reluctance Motors/3.jpeg" alt="Synchronous Reluctance Motors 3">
