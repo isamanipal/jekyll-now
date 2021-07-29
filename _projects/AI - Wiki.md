@@ -1,3 +1,9 @@
+---
+Layout: Doc
+Sub: AI
+Tag: WIKI
+Title: AI-WIKI
+---
 # IBM Watson Chatbot
 ### Intents List
 
