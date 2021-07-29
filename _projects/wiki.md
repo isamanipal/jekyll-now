@@ -1,8 +1,8 @@
 ---
-Layout: doc
-Sub: AI
-Tag: wiki
-Title: AI-WIKI
+layout: doc
+sub: AI
+tag: wiki
+title: AI-WIKI
 ---
 # IBM Watson Chatbot
 ### Intents List
